@@ -1,0 +1,124 @@
+/* style.css for personal website project */
+body{
+	background-color: pink;
+	margin: 0;
+}
+
+h1{
+	margin-top: 0; 
+	color: mediumvioletred;
+	text-align: center;
+}
+
+h2{
+	margin-top: 50;
+	color: #B0C4DE;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#header{
+	position: fixed;
+	background-color: white;
+	width: 1020px;
+	top: 0;
+	margin-left: -10px;
+}
+
+img{
+	width: 400px;
+}
+
+#photo3{
+	float: right !important;
+}
+
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+#menu li {
+    display: inline;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: mediumvioletred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+p{
+	color: darkgray;
+	line-height: 2;
+	font-size: 20px;
+}
+
+#content img{
+	float: left;
+	margin-right: 10px;
+}
+
+#content{
+	height: 750px;
+	margin-top: 108px;
+}
+
+
+#content1 img{
+	float: left;
+	margin-right: 10px;
+}
+
+#content1{
+	height: 1350px;
+	margin-top: 108px;
+}
+
+#content2 img{
+	float: left;
+	margin-right: 10px;
+}
+
+#content2{
+	height: 2400px;
+	margin-top: 108px;
+}
+
+#container{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+#footer{
+	text-align: center;
+	border-top: 1px solid black;
+	padding-bottom: 1px;
+}
